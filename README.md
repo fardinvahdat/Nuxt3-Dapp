@@ -7,7 +7,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**[Live Demo](https://nextjs-dapp-murex.vercel.app/)**
+**[Live Demo](https://nuxt3-dapp-eight.vercel.app/)**
 
 > **Production-ready modular DApp architecture built with Nuxt 3, TypeScript, and Viem for seamless Web3 integration**
 
@@ -347,8 +347,6 @@ pnpm typecheck
 # Format code
 pnpm format
 
-# Lint code
-pnpm lint
 ```
 
 ## 🔧 Environment Variables
