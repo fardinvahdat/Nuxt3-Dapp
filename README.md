@@ -7,6 +7,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+**[Live Demo](https://nextjs-dapp-murex.vercel.app/)**
+
 > **Production-ready modular DApp architecture built with Nuxt 3, TypeScript, and Viem for seamless Web3 integration**
 
 A comprehensive, scalable decentralized application (DApp) framework that provides developers with a robust foundation for building modern Web3 applications. This architecture combines the power of Nuxt 3's full-stack capabilities with Viem's lightweight Ethereum library, offering type-safe smart contract interactions, multi-chain support, and an exceptional developer experience.
@@ -551,6 +553,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-**Built with ❤️ for the Web3 community**
+**Built with ❤️ by [Fardin Vahdat](https://github.com/fardinvahdat)**
 
 *Ready to build the next generation of decentralized applications? Get started today!* 🚀
