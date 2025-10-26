@@ -1,20 +1,5 @@
 {
   "extends": "./.nuxt/tsconfig.json",
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "strict": false,
-    "jsx": "preserve",
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "types": ["node", "nuxt", "@pinia/nuxt", "vitest/globals"]
-  },
   "include": [
     "**/*.ts",
     "**/*.vue",
@@ -25,7 +10,6 @@
   "exclude": [
     "node_modules",
     ".nuxt",
-    "dist",
     ".output"
   ]
 }

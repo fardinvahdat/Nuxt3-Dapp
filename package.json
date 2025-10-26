@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
     "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -43,10 +43,5 @@
     "typescript": "^5.3.3",
     "vitest": "^1.2.2",
     "vue-tsc": "^2.0.29"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
-  },
-  "packageManager": "pnpm@8.15.1"
+  }
 }

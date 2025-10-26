@@ -284,7 +284,7 @@ const isIncrementDisabled = computed(
   () => !isOnSepolia.value || writeLoading.value || counterData.value?.isLoading
 );
 
-const counterData = ref(null);
+const counterData = ref<any>(null);
 // Read counter value (no auto-refresh) - Always read from Sepolia
 onMounted(() => {
   counterData.value = useContractRead<bigint>({
