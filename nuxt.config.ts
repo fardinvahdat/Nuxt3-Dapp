@@ -48,20 +48,5 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: {
-    preset: "vercel",
-  },
-
-  experimental: {
-    typedPages: true,
-    payloadExtraction: false,
-  },
-
-  vite: {
-    optimizeDeps: {
-      include: ["viem", "@wagmi/core"],
-    },
-  },
-
   compatibilityDate: "2024-01-19",
 });
