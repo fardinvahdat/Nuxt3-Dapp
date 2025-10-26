@@ -54,11 +54,6 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: {
-    preset: "node-server",
-    compressPublicAssets: true,
-  },
-
   experimental: {
     typedPages: true,
     payloadExtraction: false,
