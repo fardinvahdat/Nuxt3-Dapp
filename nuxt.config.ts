@@ -4,10 +4,7 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@pinia/nuxt",
-  ],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
 
   typescript: {
     strict: true,
@@ -55,7 +52,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: "node-server",
+    preset: "vercel",
     compressPublicAssets: true,
   },
 
