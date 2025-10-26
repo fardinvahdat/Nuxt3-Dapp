@@ -54,6 +54,10 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    preset: "vercel",
+  },
+
   experimental: {
     typedPages: true,
     payloadExtraction: false,
