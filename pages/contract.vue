@@ -77,7 +77,7 @@
           <div class="network-warning__content">
             <h4>Wrong Network</h4>
             <p>
-              This counter is deployed on Sepolia testnet. Please switch to
+              This Contract is deployed on Sepolia testnet. Please switch to
               Sepolia to interact with it.
             </p>
           </div>
@@ -153,7 +153,7 @@
           <div class="network-warning__content">
             <h4>Wrong Network</h4>
             <p>
-              This counter is deployed on Sepolia testnet. Please switch to
+              This Contract is deployed on Sepolia testnet. Please switch to
               Sepolia to interact with it.
             </p>
           </div>
