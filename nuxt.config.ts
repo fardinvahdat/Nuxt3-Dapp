@@ -9,12 +9,6 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
   ],
 
-  typescript: {
-    strict: true,
-    typeCheck: true,
-    shim: false,
-  },
-
   css: ["~/styles/globals.css", "~/styles/ui.scss"],
 
   runtimeConfig: {
